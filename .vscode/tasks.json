@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Next.js: dev server",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": ".",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "(Ready|started server|Local:)"
+        }
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Open preview in browser",
+      "type": "shell",
+      "command": "start http://localhost:3000",
+      "windows": {
+        "command": "start http://localhost:3000"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Preview: dev + browser",
+      "dependsOn": ["Next.js: dev server"],
+      "dependsOrder": "sequence",
+      "problemMatcher": []
+    }
+  ]
+}
