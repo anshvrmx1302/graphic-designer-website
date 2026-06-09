@@ -213,7 +213,7 @@ export default function ProjectPage() {
                 <WorkMedia
                   media={{
                     type: "image",
-                    src: "/api/visual-media/ancient-history-buff-board.png",
+                    src: "/services/brand-identity/ancient-history-buff.png",
                   }}
                   title="Ancient History Buff logo board"
                   imageClassName="object-contain bg-card"
@@ -235,7 +235,7 @@ export default function ProjectPage() {
                   <WorkMedia
                     media={{
                       type: "image",
-                      src: "/api/visual-media/cafe-day-board.png",
+                      src: "/services/brand-identity/cafe-day.png",
                     }}
                     title="Cafe Day brand board"
                     imageClassName="object-contain bg-card"
@@ -256,7 +256,7 @@ export default function ProjectPage() {
                   <WorkMedia
                     media={{
                       type: "image",
-                      src: "/api/visual-media/smartlayers-board.png",
+                      src: "/services/brand-identity/smartlayers.png",
                     }}
                     title="SmartLayers brand board"
                     imageClassName="object-contain bg-card"

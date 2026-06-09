@@ -135,7 +135,7 @@ export const works: WorkProject[] = [
       "On-brand social templates",
     ],
     media: [
-      { type: "video", src: "/api/visual-media/explore-01.mp4" },
+      { type: "video", src: "/visual-media/17512950-uhd_3840_2160_25fps.mp4" },
       { type: "image", src: "https://cdn.builder.io/api/v1/image/assets%2F8f01d7a145644d518cc799a3b8e5a749%2F48ffba7a155f48f1b02298ed6bd8306b?format=webp&width=800&height=1200" },
     ],
     color: "from-primary/25 to-accent/20",
@@ -159,7 +159,7 @@ export const works: WorkProject[] = [
       "Campaign-ready exports",
       "Mobile-first framing",
     ],
-    media: { type: "video", src: "/api/visual-media/visual-project-1.mp4" },
+    media: { type: "video", src: "/visual-media/visual-project-1.mp4" },
     color: "from-violet-500/20 to-purple-500/20",
   },
   {

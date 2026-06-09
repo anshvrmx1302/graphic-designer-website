@@ -49,22 +49,22 @@ const services: {
     projects: [
       {
         name: "Visual 1",
-        video: "/api/visual-media/explore-01.mp4",
+        video: "/visual-media/17512950-uhd_3840_2160_25fps.mp4",
         hideLabel: true,
       },
       {
         name: "Visual 2",
-        video: "/api/visual-media/visual-project-1.mp4",
+        video: "/visual-media/visual-project-1.mp4",
         hideLabel: true,
       },
       {
         name: "Visual 3",
-        video: "/api/visual-media/visual-project-3.mp4",
+        video: "/visual-media/visual-project-3.mp4",
         hideLabel: true,
       },
       {
         name: "Social scroll",
-        image: "/api/visual-media/social-scroll-mockup.png",
+        image: "/visual-media/394.jpg",
         hideLabel: true,
       },
     ],
