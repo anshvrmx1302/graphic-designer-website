@@ -201,26 +201,13 @@ export default function ProjectPage() {
         ) : (
           <>
             <motion.div
-              className={`relative overflow-hidden rounded-3xl border border-border/50 bg-gradient-to-br ${project.color} ${
-                project.id === "ancient-history-buff" ? "aspect-[16/10]" : "aspect-video"
-              }`}
+              className={`relative overflow-hidden rounded-3xl border border-border/50 bg-gradient-to-br ${project.color} aspect-auto min-h-[900px]`}
               initial={{ opacity: 0, scale: 0.98 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              {project.id === "ancient-history-buff" ? (
-                <WorkMedia
-                  media={{
-                    type: "image",
-                    src: "/services/brand-identity/ancient-history-buff.png",
-                  }}
-                  title="Ancient History Buff logo board"
-                  imageClassName="object-contain bg-card"
-                />
-              ) : (
-                <WorkMedia media={project.media} title={project.title} />
-              )}
+              <WorkMedia media={project.media} title={project.title} imageClassName="object-contain bg-card w-full h-full" />
             </motion.div>
 
             {project.id === "cafe-day" && (

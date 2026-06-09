@@ -39,10 +39,10 @@ export const works: WorkProject[] = [
       "Cohesive color and type system",
       "5-star Upwork rating from Jane (YouTube)",
     ],
-    media: {
-      type: "image",
-      src: "/services/brand-identity/ancient-history-buff.png",
-    },
+    media: [
+      { type: "image", src: "/services/brand-identity/ancient-history-buff-logo.png" },
+      { type: "image", src: "/services/brand-identity/ancient-history-buff.png" },
+    ],
     color: "from-amber-500/20 to-orange-600/20",
   },
   {
@@ -64,7 +64,10 @@ export const works: WorkProject[] = [
       "Menu and promo applications",
       "Warm, hospitality-led art direction",
     ],
-    media: { type: "image", src: "/services/brand-identity/cafe-day.png" },
+    media: [
+      { type: "image", src: "/services/brand-identity/cafe-day.png" },
+      { type: "image", src: "/services/brand-identity/cafe-day-board.png" },
+    ],
     color: "from-rose-500/20 to-amber-500/20",
   },
   {
@@ -86,7 +89,10 @@ export const works: WorkProject[] = [
       "Deck and UI-ready templates",
       "Minimal, product-first aesthetic",
     ],
-    media: { type: "image", src: "/services/brand-identity/smartlayers.png" },
+    media: [
+      { type: "image", src: "/services/brand-identity/smartlayers.png" },
+      { type: "image", src: "/services/brand-identity/smartlayers-board.png" },
+    ],
     color: "from-sky-500/20 to-indigo-500/20",
   },
   {
@@ -110,7 +116,7 @@ export const works: WorkProject[] = [
     ],
     media: [
       { type: "image", src: "https://cdn.builder.io/api/v1/image/assets%2F8f01d7a145644d518cc799a3b8e5a749%2F1b7a700119d345e0ab0360d4dd002d6f?format=webp&width=800&height=1200" },
-      { type: "image", src: "/services/brand-identity/yardvis.png" },
+      { type: "image", src: "/services/brand-identity/yardvis-board.png" },
       { type: "image", src: "https://cdn.builder.io/api/v1/image/assets%2F8f01d7a145644d518cc799a3b8e5a749%2F432d6f8de25b4e488b501234e044a375?format=webp&width=800&height=1200" },
     ],
     color: "from-emerald-500/20 to-teal-500/20",
